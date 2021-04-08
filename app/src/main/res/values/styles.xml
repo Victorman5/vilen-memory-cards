@@ -1,0 +1,58 @@
+<resources>
+
+    <style name="LightTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textViewStyle">@style/LightTextViewStyle</item>
+        <item name="backgroundColor">@color/colorWhite</item>
+
+        <item name="android:windowAnimationStyle">@style/WindowTransitionAnimation</item>
+    </style>
+
+
+    <style name="DarkTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textViewStyle">@style/DarkTextViewStyle</item>
+
+        <item name="backgroundColor">@color/colorGreyDark</item>
+
+        <item name="android:windowAnimationStyle">@style/WindowTransitionAnimation</item>
+    </style>
+
+
+    <style name="WindowTransitionAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="AddFloatingActionButtonStyle" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="tint">@color/colorWhite</item>
+        <item name="srcCompat">@drawable/ic_add_black_24dp</item>
+    </style>
+
+    <style name="LightTextViewStyle">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="DarkTextViewStyle">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    
+    <style name="CardsCollectionSwitchTheme">
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+
+    
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cardColors">
+        <item>#EF9A9A</item>
+        <item>#F48FB1</item>
+        <item>#CE93D8</item>
+        <item>#B39DDB</item>
+
+        <item>#9FA8DA</item>
+        <item>#90CAF9</item>
+        <item>#81D4FA</item>
+        <item>#80DEEA</item>
+
+        <item>#80CBC4</item>
+        <item>#A5D6A7</item>
+        <item>#C5E1A5</item>
+        <item>#E6EE9C</item>
+
+        <item>#FFF59D</item>
+        <item>#FFE082</item>
+        <item>#FFCC80</item>
+        <item>#FFAB91</item>
+    </string-array>
+</resources>

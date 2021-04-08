@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuActionCardsSearch"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/titleSearch"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <item
+        android:id="@+id/menuActionCardsCollectionEdit"
+        android:title="@string/titleEditCollection"/>
+
+    <item
+        android:id="@+id/menuActionClearCounters"
+        android:title="@string/titleClearCounters"/>
+
+    <item
+        android:id="@+id/menuActionCreateReversedCardsCollection"
+        android:title="@string/titleCreateReversedCardsCollection"/>
+
+    <item
+        android:id="@+id/menuActionCardsCollectionUpload"
+        android:title="@string/titleUploadCollection"/>
+
+</menu>
